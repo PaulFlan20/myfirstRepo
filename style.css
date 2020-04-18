@@ -1,0 +1,30 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.heading{
+  font-weight: 900;
+}
+ol li{
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: white;
+  font-family: montserrat;
+  font-size: 13px;
+  font-weight: 900;
+}
+.container > div{
+  width: 200px;
+  text-align: center;
+  padding: 10px;
+  background: gray;
+  margin: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.container > div:hover{
+  background: black;
+}
