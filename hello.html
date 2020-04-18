@@ -2,18 +2,69 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hello</title>
+    <style type="text/css">
+      .heading{
+        font-weight: 900;
+        font-family: arial;
+      }
+      ol li{
+        font-family: Impact;
+      }
+      .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        color: white;
+        font-family: montserrat;
+        font-size: 13px;
+        font-weight: 900;
+      }
+      .container > div{
+        width: 200px;
+        text-align: center;
+        padding: 10px;
+        background: gray;
+        margin: 10px;
+        transition: 0.3s;
+        cursor: pointer;
+      }
+      .container > div:hover{
+        background: black;
+      }
+    </style>
   </head>
   <body>
-    Hello World! Hello again! Hello a third time
+    Hello World! Hello again! Hello a third time! <br>
     This is just some added text
-    <h2>This is some big text I added</h2>
-    <label for="list"><b>Here's a list of fruits</b></label>
+    <h2 class="heading">This is some big text I added</h2>
+    <label for="list"><b>Here's a list of fruits: </b></label>
     <ol id="list">
       <li>Mango</li>
       <li>Banana</li>
       <li>Orange</li>
       <li>Apple</li>
+      <li>Pineapple</li>
     </ol>
+    <div class="container">
+      <div class="box">
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+      <div class="box">
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+      <div class="box">
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+      <div class="box">
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+      <div class="box">
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+    </div>
+
+    </div>
   </body>
 </html>
